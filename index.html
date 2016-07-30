@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<!-- head -->
+<head>
+	<meta charset="utf-8">
+	<title>Chinese Zodiac</title>
+	<!-- BOOTSTRAP LINK -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- MAIN CSS LINK-->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- ANIMATE.CSS LINK-->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- META VIEWPORT -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- GOOGLE FONTS -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,greek-ext' rel='stylesheet' type='text/css'>
+
+</head>
+<!-- body -->
+<body class="container-fluid">
+	<form><!-- FORM -->
+		<input placeholder="What year were you born in?" onkeyup="keyUp()" id="year"><!-- TEXTBOX -->
+		<button type="button" id="button" onclick="getInfo()">Enter</button><!-- BUTTON -->
+	</form><!-- END FORM -->
+
+	<div class="container-fluid col-xl-12"><!-- IMAGES LANTERNS -->
+		<div class="row">
+			<img src="img/lantern.png" class="animated swing infinite">
+			<img src="img/lantern.png" class="lanternRight animated swing infinite">
+			<img src="img/slantern.png" class="lantern1 animated swing2 infinite">
+			<img src="img/slantern.png" class="lantern2 animated swing2 infinite">
+			<img src="img/slantern.png" class="lantern3 animated swing2 infinite">
+			<img src="img/slantern.png" class="lantern4 animated swing2 infinite">
+			<img src="img/slantern.png" class="lantern5 animated swing2 infinite">
+			<img src="img/slantern.png" class="lantern6 animated swing2 infinite">
+			<img src="img/slantern.png" class="lantern7 animated swing2 infinite">
+			<img src="img/slantern.png" class="lantern8 animated swing2 infinite">
+		</div>
+	</div><!-- END LANTERNS -->
+
+	<div class="content"><!-- MAIN SECTION POPUP -->
+		<h1 id="title"></h1>
+		<img src id="img">
+		<p id="description"></p>
+	</div><!-- END MAIN SECTION -->
+	
+
+	<!-- JQUERY LINK -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<!-- JAVASCRIPT LINK -->
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

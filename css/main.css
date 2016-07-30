@@ -1,0 +1,135 @@
+@font-face {
+  font-family: shai;
+  src: url(../fonts/shai.ttf);
+}
+
+* {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+ body {
+ 	background-image: url("../img/background.png");
+ 	background-repeat: no-repeat;
+ }
+
+ #img {
+ 	width: 200px;
+ }
+
+.lanternRight {
+	position: absolute;
+	left: 1100px;
+	animation-delay: 1s;
+}
+
+.lantern1 {
+	position: absolute;
+	left: 490px;
+	top: 280px;
+}
+
+.lantern2 {
+	position: absolute;
+	left: 553px;
+	top: 300px;
+	animation-delay: 0.5s;
+}
+
+.lantern3 {
+	position: absolute;
+	left: 620px;
+	top: 312px;
+	animation-delay: 1s;
+}
+
+.lantern4 {
+	position: absolute;
+	left: 690px;
+	top: 320px;
+	animation-delay: 0.4s;
+}
+
+.lantern5 {
+	position: absolute;
+	left: 760px;
+	top: 320px;
+	animation-delay: 1.5s;
+}
+
+.lantern6 {
+	position: absolute;
+	left: 830px;
+	top: 313px;
+	animation-delay: 0.75;
+}
+
+.lantern7 {
+	position: absolute;
+	left: 900px;
+	top: 300px;
+}
+
+.lantern8 {
+	position: absolute;
+	left: 970px;
+	top: 280px;
+	animation-delay: 0.8s;
+}
+
+form {
+	width: 300px;
+	position: absolute;
+	text-align: center;
+	top: 600px;
+	left: 610px;
+}
+
+input {
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	display: block;
+	margin: 0;
+}
+
+button {
+	margin-top: 15px !important;
+	width: 100px !important;
+	height: 40px !important;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	background-color: #D83D3D;
+}
+
+.content {
+	width: 700px;
+	height: 400px;
+	/*background-color: tomato;*/
+	position: absolute;
+	left: 405px;
+	top: 100px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 38px;
+	color: black;
+}
+
+h1 span {
+	font-family: 'shai', sans-serif;
+	font-size: 70px;
+}
+
+.desc {
+	background-color: white;
+	border: 3px solid black;
+	padding: 20px 40px !important;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px !important;
+}
+
+
